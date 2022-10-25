@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dualite video player</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body >
+    <h1>Dualite Video player</h1>
+    <div  id="container">
+        <div id="btns">
+            <a target=”_blank” href="https://www.google.com/"><button id="b1">Google</button></a>
+            <button onclick="playV2()" id="b2">Video2</button>
+            <button onclick="playV3()" id="b3">Video3</button>
+        </div>
+            
+        <video src="/videos/V1.mp4" onplay="myFunction()"  width="600" height="450"autoplay controls id="v1">
+            <!-- <source  type="video/mp4"> -->
+        </video>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
